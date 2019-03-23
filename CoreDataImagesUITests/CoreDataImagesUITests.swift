@@ -1,9 +1,9 @@
 //
-//  ortbalsn_challenge_core_dataUITests.swift
-//  ortbalsn-challenge-core-dataUITests
+//  CoreDataImagesUITests.swift
+//  CoreDataImagesUITests
 //
-//  Created by Nathan Ortbals on 2/18/19.
-//  Copyright © 2019 Nathan Ortbals. All rights reserved.
+//  Created by Dayton on 3/22/19.
+//  Copyright © 2019 Dayton Steffeny. All rights reserved.
 //
 
 import XCTest

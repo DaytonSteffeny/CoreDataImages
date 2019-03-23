@@ -1,9 +1,9 @@
 //
-//  DocumentsTableViewController.swift
-//  ortbalsn-challenge-core-data
+//  ImagesTableViewController.swift
+//  CoreDataImages
 //
-//  Created by Nathan Ortbals on 2/18/19.
-//  Copyright © 2019 Nathan Ortbals. All rights reserved.
+//  Created by Dayton on 3/22/19.
+//  Copyright © 2019 Dayton Steffeny. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,6 @@ class ImagesTableViewController: UITableViewController {
     @IBOutlet weak var addButtonItem: UIBarButtonItem!
     
     var images = [Image]()
-    
     let dateFormatter = DateFormatter()
     
     override func viewDidLoad() {
@@ -64,7 +63,6 @@ class ImagesTableViewController: UITableViewController {
         }
     }
 
-    // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

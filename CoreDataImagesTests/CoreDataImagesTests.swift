@@ -1,13 +1,13 @@
 //
-//  ortbalsn_challenge_core_dataTests.swift
-//  ortbalsn-challenge-core-dataTests
+//  CoreDataImagesTests.swift
+//  CoreDataImagesTests
 //
-//  Created by Nathan Ortbals on 2/18/19.
-//  Copyright © 2019 Nathan Ortbals. All rights reserved.
+//  Created by Dayton on 3/22/19.
+//  Copyright © 2019 Dayton Steffeny. All rights reserved.
 //
 
 import XCTest
-@testable import ortbalsn_challenge_core_data
+@testable import CoreDataImages
 
 class ortbalsn_challenge_core_dataTests: XCTestCase {
 

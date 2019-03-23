@@ -1,5 +1,5 @@
 //
-//  Image+CoreDataClass.swift
+//  CoreDataImages.swift
 //  CoreDataImages
 //
 //  Created by Dayton on 3/22/19.
@@ -12,6 +12,7 @@ import UIKit
 
 @objc(Image)
 public class Image: NSManagedObject {
+   
     var dateModified: Date? {
         get {
             return rawDateModified as Date?
@@ -35,6 +36,7 @@ public class Image: NSManagedObject {
             
             return nil
         }
+       
         set(newImage) {
             if let newImage = newImage {
                 if let data = newImage.pngData() as NSData? {
@@ -49,6 +51,7 @@ public class Image: NSManagedObject {
     }
     
     convenience init?(title: String?, image: UIImage?) {
+       
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return nil
         }
